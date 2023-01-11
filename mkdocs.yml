@@ -1,0 +1,91 @@
+site_name: Svelte Utility
+site_url: https://svelte-u.netlify.app/
+site_author: Mohamed Nesredin
+site_description: A collection of utility functions, which help you build powerful
+  app in svelte.
+repo_name: svelte-u/docs
+repo_url: https://github.com/svelte-u/docs
+edit_uri: https://github.com/svelte-u/docs/tree/master/docs
+copyright: Copyright &copy; 2022 Mohamed Nesredin
+theme:
+  name: material
+  custom_dir: docs/overrides
+  logo: https://avatars.githubusercontent.com/u/120715197
+  icon:
+    repo: fontawesome/brands/github-alt
+  features:
+  - navigation.tabs
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - search.share
+  - content.tabs.link
+  - content.code.annotate
+  - social
+  font:
+    text: Poppins
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: indigo
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: indigo
+    toggle:
+      icon: material/weather-night
+      name: Switch to light mode
+plugins:
+- search
+- macros
+- git-authors:
+    show_contribution: true
+    show_line_count: true
+    count_empty_lines: true
+- minify:
+    minify_html: true
+- git-revision-date-localized:
+    type: timeago
+nav:
+- "Svelte Utility": 
+  - Home: index.md
+  - Contributing: contributing.md
+# - Actions:
+# - Browser:
+# - Extend:
+# - Shared:
+markdown_extensions:
+- meta
+- abbr
+- tables
+- pymdownx.snippets
+- admonition
+- pymdownx.details
+- pymdownx.highlight:
+    anchor_linenums: true
+- pymdownx.superfences
+- pymdownx.inlinehilite
+- pymdownx.keys
+- pymdownx.tabbed:
+    alternate_style: true
+- footnotes
+- pymdownx.caret
+- pymdownx.mark
+- pymdownx.tilde
+- pymdownx.smartsymbols
+- attr_list
+- def_list
+- md_in_html
+- pymdownx.tasklist:
+    custom_checkbox: true
+    clickable_checkbox: true
+extra_css:
+- css/termynal.css
+- css/custom.css
+extra_javascript:
+- js//mermaid.min.js
+- js/termynal.js
+- js/custom.js
+- js/windicss.js
