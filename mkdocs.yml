@@ -55,7 +55,8 @@ nav:
 # - Actions:
 # - Browser:
 # - Extend:
-# - Shared:
+- Shared:
+  - "Type": "shared/type.md"
 markdown_extensions:
 - meta
 - abbr
