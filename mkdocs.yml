@@ -57,6 +57,7 @@ nav:
 # - Extend:
 - Shared:
   - "IS": "shared/is.md"
+  - "Len": "shared/len.md"
   - "Type": "shared/type.md"
   - "Watchable": "shared/watchable.md"
 markdown_extensions:
