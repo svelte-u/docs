@@ -58,6 +58,7 @@ nav:
 - Shared:
   - "IS": "shared/is.md"
   - "Type": "shared/type.md"
+  - "Watchable": "shared/watchable.md"
 markdown_extensions:
 - meta
 - abbr
