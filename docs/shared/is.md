@@ -11,7 +11,7 @@ description: A Collection of is functions that help you check the type of the va
 
 Check if the environment is browser or not.
 
-### 🎬 Usage
+
 
 ```html
 <script>
@@ -25,7 +25,7 @@ Check if the environment is browser or not.
 
 Check if WebSocket is available or not.
 
-### 🎬 Usage
+\
 
 ```html
 <script>
@@ -40,8 +40,6 @@ Check if WebSocket is available or not.
 
 Check if the value is Set or not.
 
-### 🎬 Usage
-
 ```html
 <script>
     import {is_set} from "@sveu/shared"
@@ -54,8 +52,6 @@ Check if the value is Set or not.
 
 Check if the value is Boolean or not.
 
-### 🎬 Usage
-
 ```html
 <script>
     import {is_boolean} from "@sveu/shared"
@@ -67,8 +63,6 @@ Check if the value is Boolean or not.
 ## Is Function
 
 Check if the value is Function or not.
-
-### 🎬 Usage
 
 ```html
 <script>
@@ -87,8 +81,6 @@ Check if the value is Function or not.
 
 Check if the value is Number or not.
 
-### 🎬 Usage
-
 ```html
 <script>
     import {is_number} from "@sveu/shared"
@@ -101,7 +93,6 @@ Check if the value is Number or not.
 
 Check if the value is String or not.
 
-### 🎬 Usage
 
 ```html
 <script>
@@ -115,8 +106,6 @@ Check if the value is String or not.
 
 Check if the value is Array or not.
 
-### 🎬 Usage
-
 ```html
 <script>
     import {is_array} from "@sveu/shared"
@@ -128,8 +117,6 @@ Check if the value is Array or not.
 ## Is Object
 
 Check if the value is Object or not.
-
-### 🎬 Usage
 
 ```html
 <script>
@@ -143,8 +130,6 @@ Check if the value is Object or not.
 
 Check if the value is Date or not.
 
-### 🎬 Usage
-
 ```html
 <script>
     import {is_date} from "@sveu/shared"
@@ -156,8 +141,6 @@ Check if the value is Date or not.
 ## Is Symbol
 
 Check if the value is Symbol or not.
-
-### 🎬 Usage
 
 ```html
 <script>
@@ -171,8 +154,6 @@ Check if the value is Symbol or not.
 
 Check if the value is windows object or not.
 
-### 🎬 Usage
-
 ```html
 <script>
     import {is_window} from "@sveu/shared"
@@ -183,13 +164,9 @@ Check if the value is windows object or not.
 <h1>Windows? {is_window(window) ? 'yea' : "nope"}</h1>
 ```
 
-
-
 ## Is Empty
 
 Check if the value is empty or not.
-
-### 🎬 Usage
 
 ```html
 <script>
@@ -202,8 +179,6 @@ Check if the value is empty or not.
 ## Is Equal
 
 Check if the value is equal to the other value or not.
-
-### 🎬 Usage
 
 ```html
 <script>
@@ -221,8 +196,6 @@ Check if the value is equal to the other value or not.
 ## Is Store
 
 Check if the value is Store or not.
-
-### 🎬 Usage
 
 ```html
 <script>
@@ -243,8 +216,6 @@ Check if the value is Store or not.
 ## Is Readable Store
 
 Check if the value is Readable Store or not.
-
-### 🎬 Usage
 
 ```html
 <script>
@@ -268,9 +239,6 @@ Check if the value is Readable Store or not.
 
 Check if the value is Readable Store Only or not.
 
-
-### 🎬 Usage
-
 ```html
 <script>
     import {readable, writable} from "svelte/store"
@@ -293,8 +261,6 @@ Check if the value is Readable Store Only or not.
 
 Check if the value is Writable Store or not.
 
-### 🎬 Usage
-
 ```html
 <script>
     import {readable, writable} from "svelte/store"
@@ -315,8 +281,6 @@ Check if the value is Writable Store or not.
 ## Is Partial Writable Store
 
 Check if the store contains `subscribe` and `set` methods, valid use case is `customStore` that returns the `subscribe` and `set` methods.
-
-### 🎬 Usage
 
 ```html
 <script>
@@ -344,12 +308,11 @@ Check if the store contains `subscribe` and `set` methods, valid use case is `cu
 <h1>is "C" a Partial Writable Store? {is_partial_writable(c) ? 'yea' : "nope"}</h1>
 ```
 
-
 ## 👀 Source Code
 
 ??? tip "Source Code"
 
-    ```ts
+```ts
     import type { Readable, Writable } from "svelte/store"
 
     import { type } from "../type"
