@@ -58,6 +58,8 @@ nav:
 - Shared:
   - "IS": "shared/is.md"
   - "Len": "shared/len.md"
+  - "On Destroy": "shared/on_destroy.md"
+  - "On Mount": "shared/on_mount.md"
   - "Type": "shared/type.md"
   - "Watchable": "shared/watchable.md"
 markdown_extensions:
