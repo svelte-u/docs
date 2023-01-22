@@ -312,7 +312,7 @@ Check if the store contains `subscribe` and `set` methods, valid use case is `cu
 
 ??? tip "Source Code"
 
-```ts
+    ```ts
     import type { Readable, Writable } from "svelte/store"
 
     import { type } from "../type"
