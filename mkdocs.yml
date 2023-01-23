@@ -68,6 +68,7 @@ nav:
   - "To Readable": "shared/to_readable.md"
   - "To Writable": "shared/to_writable.md"
   - "Type": "shared/type.md"
+  - "Unstore": "shared/unstore.md"
   - "Watchable": "shared/watchable.md"
 markdown_extensions:
 - meta
