@@ -62,6 +62,7 @@ nav:
   - "On Mount": "shared/on_mount.md"
   - "Range": "shared/range.md"
   - "Sleep": "shared/sleep.md"
+  - "Slug": "shared/slug.md"
   - "Type": "shared/type.md"
   - "Watchable": "shared/watchable.md"
 markdown_extensions:
