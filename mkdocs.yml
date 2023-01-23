@@ -64,6 +64,7 @@ nav:
   - "Sleep": "shared/sleep.md"
   - "Slug": "shared/slug.md"
   - "Template": "shared/template.md"
+  - "To Number": "shared/to_number.md"
   - "Type": "shared/type.md"
   - "Watchable": "shared/watchable.md"
 markdown_extensions:
