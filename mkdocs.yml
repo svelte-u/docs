@@ -63,6 +63,7 @@ nav:
   - "Range": "shared/range.md"
   - "Sleep": "shared/sleep.md"
   - "Slug": "shared/slug.md"
+  - "Template": "shared/template.md"
   - "Type": "shared/type.md"
   - "Watchable": "shared/watchable.md"
 markdown_extensions:
