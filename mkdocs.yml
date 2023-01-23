@@ -65,6 +65,7 @@ nav:
   - "Slug": "shared/slug.md"
   - "Template": "shared/template.md"
   - "To Number": "shared/to_number.md"
+  - "To Readable": "shared/to_readable.md"
   - "Type": "shared/type.md"
   - "Watchable": "shared/watchable.md"
 markdown_extensions:
