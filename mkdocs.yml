@@ -66,6 +66,7 @@ nav:
   - "Sleep": "shared/sleep.md"
   - "Slug": "shared/slug.md"
   - "Template": "shared/template.md"
+  - "Throttle": "shared/throttle.md"
   - "To Number": "shared/to_number.md"
   - "To Readable": "shared/to_readable.md"
   - "To Writable": "shared/to_writable.md"
