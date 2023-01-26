@@ -58,6 +58,7 @@ nav:
 - Shared:
   - "Debounce": "shared/debounce.md"
   - "IS": "shared/is.md"
+  - "Last Change": "shared/last_changed.md"
   - "Len": "shared/len.md"
   - "On Destroy": "shared/on_destroy.md"
   - "On Mount": "shared/on_mount.md"
