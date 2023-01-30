@@ -60,6 +60,7 @@ nav:
   - "IS": "shared/is.md"
   - "Last Change": "shared/last_changed.md"
   - "Len": "shared/len.md"
+  - "Make Destructurable": "shared/make_destructurable.md"
   - "On Destroy": "shared/on_destroy.md"
   - "On Mount": "shared/on_mount.md"
   - "Range": "shared/range.md"
