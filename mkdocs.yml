@@ -70,6 +70,7 @@ nav:
   - "To Number": "shared/to_number.md"
   - "To Readable": "shared/to_readable.md"
   - "To Writable": "shared/to_writable.md"
+  - "Try it": "shared/tryit.md"
   - "Type": "shared/type.md"
   - "Unstore": "shared/unstore.md"
   - "Watchable": "shared/watchable.md"
