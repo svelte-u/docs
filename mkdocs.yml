@@ -72,6 +72,7 @@ nav:
   - "Slug": "shared/slug.md"
   - "Template": "shared/template.md"
   - "Throttle": "shared/throttle.md"
+  - "Timeout": "shared/timeout.md"
   - "To Number": "shared/to_number.md"
   - "To Readable": "shared/to_readable.md"
   - "To Writable": "shared/to_writable.md"
