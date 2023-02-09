@@ -45,7 +45,7 @@ demo_link: https://svelte.dev/repl/9e2539aeee514c0e81bfdbcc9c80d777?version=3.55
 
 <iframe class="h-120 w-full" src="{{demo_link}}"></iframe>
 
-## 👀 Source Code
+## Source Code 👀
 
 ??? tip "Source Code"
 

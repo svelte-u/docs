@@ -42,7 +42,7 @@ A function that returns a promise that resolves after a given amount of time. Th
 
 <iframe class="h-120 w-full" src="{{demo_link}}"></iframe>
 
-## 👀 Source Code
+## Source Code 👀
 
 ??? tip "Source Code"
 

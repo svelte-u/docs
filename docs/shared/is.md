@@ -308,7 +308,7 @@ Check if the store contains `subscribe` and `set` methods, valid use case is `cu
 <h1>is "C" a Partial Writable Store? {is_partial_writable(c) ? 'yea' : "nope"}</h1>
 ```
 
-## 👀 Source Code
+## Source Code 👀
 
 ??? tip "Source Code"
 
