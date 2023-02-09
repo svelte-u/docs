@@ -56,7 +56,8 @@ nav:
 # - Browser:
 # - Extend:
 - Shared:
-  - "Adjust with unit": "shared/adjust_with_unit.md"
+  - "Adjust With Unit": "shared/adjust_with_unit.md"
+  - "Create Event Hook": "shared/create_event_hook.md"
   - "Debounce": "shared/debounce.md"
   - "IS": "shared/is.md"
   - "Last Change": "shared/last_changed.md"
