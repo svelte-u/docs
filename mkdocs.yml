@@ -67,6 +67,7 @@ nav:
   - "On Destroy": "shared/on_destroy.md"
   - "On Mount": "shared/on_mount.md"
   - "Range": "shared/range.md"
+  - "Relative Time Format": "shared/rtf.md"
   - "Sleep": "shared/sleep.md"
   - "Slug": "shared/slug.md"
   - "Template": "shared/template.md"
