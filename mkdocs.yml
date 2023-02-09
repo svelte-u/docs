@@ -56,6 +56,7 @@ nav:
 # - Browser:
 # - Extend:
 - Shared:
+  - "Adjust with unit": "shared/adjust_with_unit.md"
   - "Debounce": "shared/debounce.md"
   - "IS": "shared/is.md"
   - "Last Change": "shared/last_changed.md"
