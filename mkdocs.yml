@@ -58,6 +58,8 @@ nav:
 - Shared:
   - "Adjust With Unit": "shared/adjust_with_unit.md"
   - "Create Event Hook": "shared/create_event_hook.md"
+  - "Curry":
+    - "Chain": "shared/curry/chain.md"
   - "Debounce": "shared/debounce.md"
   - "Interval Fn": "shared/intervalfn.md"
   - "IS": "shared/is.md"
