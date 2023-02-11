@@ -61,6 +61,7 @@ nav:
   - "Curry":
     - "Chain": "shared/curry/chain.md"
     - "Compose": "shared/curry/compose.md"
+    - "Partial": "shared/curry/partial.md"
   - "Debounce": "shared/debounce.md"
   - "Interval Fn": "shared/intervalfn.md"
   - "IS": "shared/is.md"
