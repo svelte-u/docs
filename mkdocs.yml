@@ -70,6 +70,7 @@ nav:
   - "Relative Time Format": "shared/rtf.md"
   - "Sleep": "shared/sleep.md"
   - "Slug": "shared/slug.md"
+  - "Strftime": "shared/strftime.md"
   - "Template": "shared/template.md"
   - "Throttle": "shared/throttle.md"
   - "Timeout": "shared/timeout.md"
