@@ -69,6 +69,7 @@ nav:
   - "Len": "shared/len.md"
   - "Make Destructurable": "shared/make_destructurable.md"
   - "Math":
+    - "Clamp": "shared/math/clamp.md"
     - "Precision": "shared/math/precision.md"
     - "Random": "shared/math/random.md"
   - "On Destroy": "shared/on_destroy.md"
