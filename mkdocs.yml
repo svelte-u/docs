@@ -63,6 +63,8 @@ nav:
     - "Compose": "shared/curry/compose.md"
     - "Partial": "shared/curry/partial.md"
   - "Debounce": "shared/debounce.md"
+  - "Dicts":
+    - "Contains": "shared/dicts/contains.md"
   - "Interval Fn": "shared/intervalfn.md"
   - "IS": "shared/is.md"
   - "Last Change": "shared/last_changed.md"
