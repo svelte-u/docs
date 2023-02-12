@@ -66,6 +66,7 @@ nav:
   - "Dicts":
     - "Contains": "shared/dicts/contains.md"
     - "Filter": "shared/dicts/filter.md"
+    - "Invert": "shared/dicts/invert.md"
   - "Interval Fn": "shared/intervalfn.md"
   - "IS": "shared/is.md"
   - "Last Change": "shared/last_changed.md"
