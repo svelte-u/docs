@@ -69,6 +69,7 @@ nav:
     - "Invert": "shared/dicts/invert.md"
     - "Listify": "shared/dicts/listify.md"
     - "Picker": "shared/dicts/picker.md"
+    - "Pops": "shared/dicts/pops.md"
   - "Interval Fn": "shared/intervalfn.md"
   - "IS": "shared/is.md"
   - "Last Change": "shared/last_changed.md"
