@@ -81,6 +81,7 @@ nav:
     - "Group": "shared/lists/group.md"
     - "Intersect": "shared/lists/intersects.md"
     - "Merge": "shared/lists/merge.md"
+    - "Select": "shared/lists/select.md"
   - "Make Destructurable": "shared/make_destructurable.md"
   - "Math":
     - "Arithmetic": "shared/math/arithmetic.md"
