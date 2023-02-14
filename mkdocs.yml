@@ -76,6 +76,7 @@ nav:
   - "Len": "shared/len.md"
   - "Lists":
     - "Cluster": "shared/lists/cluster.md"
+    - "Count": "shared/lists/count.md"
   - "Make Destructurable": "shared/make_destructurable.md"
   - "Math":
     - "Arithmetic": "shared/math/arithmetic.md"
