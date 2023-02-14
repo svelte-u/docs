@@ -1,10 +1,10 @@
 ---
-title: Clamp
+title: Clamp (Math)
 description: Clamps a number between a minimum and maximum number.
 demo_link: https://svelte.dev/repl/5ba002e72b9f453e83baf71ac48c2144?version=3.55.1
 ---
 
-# {{title}}
+# Clamp
 
 {{description}}
 

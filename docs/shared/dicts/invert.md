@@ -1,10 +1,10 @@
 ---
-title: Invert
+title: Invert (Dicts)
 description: Swap the key-value pairs of an object.
 demo_link: https://svelte.dev/repl/e7a7acddee9d4a358797934e30b4fe12?version=3.55.1
 ---
 
-# {{title}}
+# Invert
 
 {{description}}
 

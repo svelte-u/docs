@@ -1,10 +1,10 @@
 ---
-title: Arithmetic
+title: Arithmetic (Math)
 description: A collection of arithmetic functions.
 demo_link: https://svelte.dev/repl/f365a8bf9052468ba274a253d30fa025?version=3.55.1
 ---
 
-# {{title}}
+# Arithmetic
 
 {{description}}
 

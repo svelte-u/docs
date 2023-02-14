@@ -1,10 +1,10 @@
 ---
-title: Chain
+title: Chain (Curry)
 description: Execute a list of functions in order.
 demo_link: https://svelte.dev/repl/be88796a876d4a8388f41950cc94f6ac?version=3.55.1
 ---
 
-# {{title}}
+# Chain
 
 A function that takes a list of functions and executes them in order.
 

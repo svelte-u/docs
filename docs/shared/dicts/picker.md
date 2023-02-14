@@ -1,10 +1,10 @@
 ---
-title: Picker
+title: Picker (Dicts)
 description: Gets the new object with the specified keys from the original object.
 demo_link: https://svelte.dev/repl/678cd3bff0d64c0b8099ab59f3f8ae33?version=3.55.1
 ---
 
-# {{title}}
+# Picker
 
 {{description}}
 

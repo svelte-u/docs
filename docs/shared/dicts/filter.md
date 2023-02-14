@@ -1,10 +1,10 @@
 ---
-title: Filter
+title: Filter (Dicts)
 description: Filter unwanted values from an object
 demo_link: https://svelte.dev/repl/d7077b5f7abd475aa87ea46304c43a87?version=3.55.1
 ---
 
-# {{title}}
+# Filter
 
 {{description}}
 

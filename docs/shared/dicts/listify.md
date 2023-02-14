@@ -1,10 +1,10 @@
 ---
-title: Listify
+title: Listify (Dicts)
 description: Convert an object to a list of items.
 demo_link: https://svelte.dev/repl/5ec26aa8c8ab438283d52814e376929f?version=3.55.1
 ---
 
-# {{title}}
+# Listify
 
 {{description}}
 

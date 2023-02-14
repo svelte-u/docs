@@ -1,10 +1,10 @@
 ---
-title: Pops
+title: Pops (Dicts)
 description: Remove the given keys from the given object.
 demo_link: https://svelte.dev/repl/9cfc55be45bf4ec993aa24a705ee23b7?version=3.55.1
 ---
 
-# {{title}}
+# Pops
 
 {{description}}
 

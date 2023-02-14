@@ -1,10 +1,10 @@
 ---
-title: Random
+title: Random (Math)
 description: Generate a random number between two numbers.
 demo_link: https://svelte.dev/repl/691aa65d1e4843fbb815f783577430e1?version=3.55.1
 ---
 
-# {{title}}
+# Random
 
 {{description}}
 

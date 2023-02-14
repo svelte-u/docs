@@ -1,10 +1,10 @@
 ---
-title: Precision
+title: Precision (Math)
 description: Returns a number with a fixed precision.
 demo_link: https://svelte.dev/repl/6cdf4fe1ce414890bf889e502790e007?version=3.55.1
 ---
 
-# {{title}}
+# Precision
 
 {{description}}
 

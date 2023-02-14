@@ -1,10 +1,10 @@
 ---
-title: Contains
+title: Contains (Dicts)
 description: Checks if an object contains all the given keys
 demo_link: https://svelte.dev/repl/9f299c842f714983a9fc50ddd59bc294?version=3.55.1
 ---
 
-# {{title}}
+# Contains
 
 {{description}}
 

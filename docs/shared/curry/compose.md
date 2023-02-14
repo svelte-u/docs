@@ -1,10 +1,10 @@
 ---
-title: Compose
+title: Compose (Curry)
 description: A composition of functions, each function is given the next function as an argument and must call it to continue executing.
 demo_link: https://svelte.dev/repl/3fc47278d8e448e4a6ac808015ebd265?version=3.55.1
 ---
 
-# {{title}}
+# Compose
 
 {{description}}
 
