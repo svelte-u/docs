@@ -36,7 +36,7 @@ demo_link: https://svelte.dev/repl/640bdc56e5f342fb9e0f5f299c02590c?version=3.55
 
 ### ↩️ Returns
 
-Boolean
+List of clusters.
 
 ## 🧪 Playground
 
