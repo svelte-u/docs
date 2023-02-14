@@ -108,6 +108,7 @@ nav:
   - "Type": "shared/type.md"
   - "Unstore": "shared/unstore.md"
   - "Watchable": "shared/watchable.md"
+  - "Type Hint": "shared/type_hint.md"
 markdown_extensions:
 - meta
 - abbr
