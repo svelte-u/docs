@@ -83,6 +83,7 @@ nav:
     - "Merge": "shared/lists/merge.md"
     - "Select": "shared/lists/select.md"
     - "Sort": "shared/lists/sort.md"
+    - "Unique": "shared/lists/unique.md"
   - "Make Destructurable": "shared/make_destructurable.md"
   - "Math":
     - "Arithmetic": "shared/math/arithmetic.md"
