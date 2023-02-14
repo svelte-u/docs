@@ -74,6 +74,8 @@ nav:
   - "IS": "shared/is.md"
   - "Last Change": "shared/last_changed.md"
   - "Len": "shared/len.md"
+  - "Lists":
+    - "Cluster": "shared/lists/cluster.md"
   - "Make Destructurable": "shared/make_destructurable.md"
   - "Math":
     - "Arithmetic": "shared/math/arithmetic.md"
