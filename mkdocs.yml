@@ -65,6 +65,7 @@ nav:
   - "Debounce": "shared/debounce.md"
   - "Dicts":
     - "Contains": "shared/dicts/contains.md"
+    - "Enhance": "shared/dicts/enhance.md"
     - "Filter": "shared/dicts/filter.md"
     - "Invert": "shared/dicts/invert.md"
     - "Listify": "shared/dicts/listify.md"
