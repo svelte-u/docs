@@ -78,6 +78,7 @@ nav:
   - "Lists":
     - "Cluster": "shared/lists/cluster.md"
     - "Count": "shared/lists/count.md"
+    - "Enhance": "shared/lists/enhance.md"
     - "Fork": "shared/lists/fork.md"
     - "Group": "shared/lists/group.md"
     - "Intersect": "shared/lists/intersects.md"
