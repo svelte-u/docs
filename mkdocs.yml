@@ -54,7 +54,8 @@ nav:
   - Contributing: contributing.md
 # - Actions:
 # - Browser:
-# - Extend:
+- Extend:
+  - "Qr Code": "extend/qrcode.md"
 - Shared:
   - "Adjust With Unit": "shared/adjust_with_unit.md"
   - "Create Event Hook": "shared/create_event_hook.md"
