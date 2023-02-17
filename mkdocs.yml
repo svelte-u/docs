@@ -55,6 +55,7 @@ nav:
 # - Actions:
 # - Browser:
 - Extend:
+  - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
   - "Firebase Cloud Messaging": "extend/fcm.md"
   - "Jwt": "extend/jwt.md"
