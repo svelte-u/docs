@@ -58,6 +58,7 @@ nav:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
   - "Firebase Cloud Messaging": "extend/fcm.md"
+  - "IDB KeyVal": "extend/idb_keyval.md"
   - "Jwt": "extend/jwt.md"
   - "Qr Code": "extend/qrcode.md"
 - Shared:
