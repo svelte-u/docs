@@ -55,6 +55,7 @@ nav:
 # - Actions:
 # - Browser:
 - Extend:
+  - "Jwt": "extend/jwt.md"
   - "Qr Code": "extend/qrcode.md"
 - Shared:
   - "Adjust With Unit": "shared/adjust_with_unit.md"
