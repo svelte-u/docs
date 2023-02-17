@@ -55,6 +55,7 @@ nav:
 # - Actions:
 # - Browser:
 - Extend:
+  - "Change Case": "extend/change_case.md"
   - "Firebase Cloud Messaging": "extend/fcm.md"
   - "Jwt": "extend/jwt.md"
   - "Qr Code": "extend/qrcode.md"
