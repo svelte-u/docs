@@ -95,6 +95,7 @@ nav:
     - "Sort": "shared/lists/sort.md"
     - "Unique": "shared/lists/unique.md"
   - "Make Destructurable": "shared/make_destructurable.md"
+  - "Object Url": "shared/object_url.md"
   - "Math":
     - "Arithmetic": "shared/math/arithmetic.md"
     - "Clamp": "shared/math/clamp.md"

@@ -13,6 +13,14 @@ demo_link: https://svelte.dev/repl/65f10b7c54c94715929c783deb9647c3?version=3.52
 ```html
 <script>
     import {async_state} from "@sveu/shared"
+
+    function my_async_function() {
+          ...
+    
+          return "some result"
+     }
+
+    const { loading, state, ready, execute } = async_state(my_async_function, "initial state")
 </script>
 ```
 
