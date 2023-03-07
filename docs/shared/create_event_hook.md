@@ -51,7 +51,7 @@ Creates a hook that can be used to create event listeners. Useful for creating f
 ??? tip "Source Code"
 
     ```ts
-    import { EventHook } from "../utils"
+    import type { EventHook } from "../utils"
 
     /**
      * Utility for creating event hooks

@@ -32,7 +32,7 @@ demo_link: https://svelte.dev/repl/ca53cca1cca44b3eb147e0f49c2b5c40?version=3.55
 | Name                | Description                                  | Type                  | Required |
 | ------------------- | -------------------------------------------- | --------------------- | -------- |
 | **list**            | The list to group                            | `T[]`                 | Yes      |
-| **fn**              | Function to get the key of each item in the list | `(item: T) => string` | Yes      |
+| **fn**              | Function to get the key of each item in the list | `(item: T) => any` | Yes      |
 
 ### ↩️ Returns
 
@@ -56,7 +56,7 @@ A key-value pair of lists. The key is the key of the item, and the value is the 
      *
      * @returns A record of lists, where the key is the result of the function, and the value is the list of items that match the key
      */
-    export function group<T>(list: T[], fn: (item: T) => string) {
+    export function group<T>(list: T[], fn: (item: T) => any) {
         return list.reduce((acc, item) => {
             const id = fn(item)
             const group_list = acc[id] ?? []

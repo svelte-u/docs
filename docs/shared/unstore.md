@@ -6,7 +6,7 @@ demo_link: https://svelte.dev/repl/c9a00f8af7ff4b24893dcaadaf5837a4?version=3.55
 
 # {{title}}
 
-Safely get the value of a store. If the value is not a store, it will be returned as is.
+Safely get the value of a store. If the value is not a store, it will be returned as it.
 
 ## 🎬 Usage
 

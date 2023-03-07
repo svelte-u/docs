@@ -1,7 +1,7 @@
 ---
 title: Sleep
 description: Sleeps for a given time.
-demo_link: https://svelte.dev/repl/e1cea62ec47248729c255bf87849a0d5?version=3.55.1
+demo_link: https://svelte.dev/repl/465b438f4fb04e939c636f9d9f8b4dea?version=3.55.1
 ---
 
 # {{title}}
@@ -25,7 +25,7 @@ A function that returns a promise that resolves after a given amount of time. Th
 
 <h1>{text}</h1>
 
-<button on:click="{() => update_text()}">Sleep</button>```
+<button on:click="{() => update_text()}">Sleep</button>
 ```
 
 ## 👩‍💻API

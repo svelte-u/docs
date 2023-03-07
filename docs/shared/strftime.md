@@ -40,6 +40,33 @@ Formats a date for a given format string code. Inspired by python [strftime](htt
 
 A string representing the date formatted for the given format string code.
 
+### Format Code
+
+| Code         | Description                                            | Example                   |
+| ------------ | ------------------------------------------------------ | ------------------------- |
+| `%a`         | Weekday as locale’s abbreviated name.                  | `Mon`                     |
+| `%A`         | Weekday as locale’s full name.                         | `Monday`                  |
+| `%w`         | Weekday as a decimal number, where 0 is Sunday.        | `1`                       |
+| `%d`         | Day of the month as a zero-padded decimal number.      | `02`                      |
+| `%b`         | Month as locale’s abbreviated name.                    | `Jan`                     |
+| `%B`         | Month as locale’s full name.                           | `January`                 |
+| `%m`         | Month as a zero-padded decimal number.                 | `01`                      |
+| `%y`         | Year without century as a zero-padded decimal number.  | `00,01..,99`              |
+| `%Y`         | Year with century as a decimal number.                 | `2021`                    |
+| `%H`         | Hour (24-hour clock) as a zero-padded decimal number.  | `00,01..,23`              |
+| `%I`         | Hour (12-hour clock) as a zero-padded decimal number.  | `01,02..,12`              |
+| `%-I`        | Hour (12-hour clock) decimal number.                   | `1,2..,12`                |
+| `%p`         | Locale’s equivalent of either AM or PM.                | `AM,PM`                   |
+| `%M`         | Minute as a zero-padded decimal number.                | `00,01..,59`              |
+| `%S`         | Second as a zero-padded decimal number.                | `00,01..,59`              |
+| `%f`         | Microsecond as a decimal number, zero-padded on the left. | `000000,000001..,999999` |
+| `%z`         | UTC offset in the form +HHMM or -HHMM.                 | `+0000,-0400,+1030`       |
+| `%Z`         | Time zone name.                                        | `UTC,EST,CST`             |
+| `%j`         | Day of the year as a zero-padded decimal number.       | `001,002..,366`           |
+| `%U`         | Week number of the year (Sunday as the first day of the week) as a zero padded decimal number. All days in a new year preceding the first Sunday are considered to be in week 0. | `00,01..,53` |
+| `%W`         | Week number of the year (Monday as the first day of the week) as a decimal number. All days in a new year preceding the first Monday are considered to be in week 0. | `00,01..,53` |
+| `%c`         | Locale’s appropriate date and time representation.     | `Mon Sep 30 07:06:05 2013` |
+
 ## 🧪 Playground
 
 <iframe class="h-120 w-full" src="{{demo_link}}"></iframe>

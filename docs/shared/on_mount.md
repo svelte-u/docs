@@ -1,5 +1,5 @@
 ---
-title: on_mount
+title: On Mount
 description: Safely call a function when the component is mounted.
 demo_link: https://svelte.dev/repl/f6a572743c0f4c9da22ac9564164d0b9?version=3.55.1
 ---

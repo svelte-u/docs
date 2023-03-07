@@ -108,6 +108,7 @@ nav:
   - "Sleep": "shared/sleep.md"
   - "Slug": "shared/slug.md"
   - "Strftime": "shared/strftime.md"
+  - "Taggable": "shared/taggable.md"
   - "Template": "shared/template.md"
   - "Throttle": "shared/throttle.md"
   - "Timeout": "shared/timeout.md"

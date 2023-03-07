@@ -66,49 +66,7 @@ demo_link: https://svelte.dev/repl/65f10b7c54c94715929c783deb9647c3?version=3.52
     import { to_readable } from "../to_readable"
     import { to_writable } from "../to_writable"
     import { noop } from "../utils"
-
-    export interface AsyncStateOptions {
-        /**
-         * Delay for executing the promise. In second.
-         *
-         * @defaultValue 0
-         */
-        delay?: number
-
-        /**
-         * Execute the promise right after the function is invoked.
-         * Will apply the delay if any.
-         *
-         * When set to false, you will need to execute it manually.
-         *
-         * @defaultValue true
-         */
-        immediate?: boolean
-
-        /**
-         * Callback when error is caught.
-         */
-        on_error?: (e: unknown) => void
-
-        /**
-         * Sets the state to initial state before executing the promise.
-         *
-         * This can be useful when calling the execute function more than once (for
-         * example, to refresh data). When set to false, the current state remains
-         * unchanged until the promise resolves.
-         *
-         * @defaultValue true
-         */
-        reset_on_execute?: boolean
-
-        /**
-         *
-         * An error is thrown when executing the execute function
-         *
-         * @defaultValue false
-         */
-        throw_error?: boolean
-    }
+    import type { AsyncStateOptions } from "../utils"
 
     /**
      * A function that executes a promise and returns a state.

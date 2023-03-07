@@ -64,6 +64,10 @@ $ pnpm add firebase
 | **messaging** | The firebase messaging instance.        | `Readable<firebase.messaging.Messaging>` |
 | **on_message** | The function to call when a message is received. | `fn: (payload: unknown) => void`       |
 
+## 🧪 Playground
+
+[Clone the playground and run it locally](https://github.com/svelte-u/playground)
+
 ## Source Code 👀
 
 ??? tip "Source Code"

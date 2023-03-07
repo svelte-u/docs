@@ -55,6 +55,10 @@ $ pnpm add idb-keyval
 
 A PartialWritable from [Watchable function](/shared/watchable/).
 
+## 🧪 Playground
+
+[stackblitz](https://stackblitz.com/edit/github-8gcpfy?file=src%2Froutes%2F%2Bpage.svelte)
+
 ## Source Code 👀
 
 ??? tip "Source Code"

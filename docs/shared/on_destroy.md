@@ -1,5 +1,5 @@
 ---
-title: on_destroy
+title: On Destroy
 description: Safely call a function when the component is destroyed.
 demo_link: https://svelte.dev/repl/584628abec794eff83b06416dffc4dab?version=3.55.1
 ---
@@ -46,12 +46,15 @@ Is a function that safely calls a function when the component is destroyed, with
      *
      * @param fn - the function to be called when the component is destroyed
      *
+     * @returns true if onDestroy() is called, false if not
      */
     export function on_destroy(fn: Fn) {
         try {
             onDestroy(fn)
+
+            return true
         } catch {
-            // do nothing
+            return false
         }
     }
     ```

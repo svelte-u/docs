@@ -43,42 +43,7 @@ A random slug.
 
     ```ts
     import { range } from "../range"
-
-    interface SlugOptions {
-        /**
-         * Use lower letters.
-         *
-         * @defaultValue true
-         */
-        lower?: boolean
-
-        /**
-         * Use uppercase letters.
-         *
-         * @defaultValue true
-         */
-        upper?: boolean
-
-        /**
-         * Use digits.
-         *
-         * @defaultValue true
-         */
-        digits?: boolean
-
-        /**
-         * Size of the slug.
-         *
-         * @defaultValue 6
-         */
-        size?: number
-
-        /**
-         * Text to use as a prefix.
-         *
-         */
-        prefix?: string
-    }
+    import type { SlugOptions } from "../utils"
 
     /**
      * Returns a random slug.

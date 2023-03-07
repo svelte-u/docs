@@ -1,12 +1,12 @@
 ---
 title: partial (Curry)
 description: Create a partial function.
-demo_link: https://svelte.dev/repl/691aa65d1e4843fbb815f783577430e1?version=3.55.1
+demo_link: https://svelte.dev/repl/88b0ec0189934b5fad049f67c01361dd?version=3.55.1
 ---
 
 # Partial
 
-let you create a function by partially applying arguments to another function.
+Let you create a function by partially applying arguments to another function.
 
 ## 🎬 Usage
 
