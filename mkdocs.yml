@@ -54,6 +54,7 @@ nav:
   - Contributing: contributing.md
 - Actions:
   - "Drop Zone": "actions/dropzone.md"
+  - "Element Bound": "actions/el_bound.md"
 # - Browser:
 - Extend:
   - "Async Validator": "extend/async_validator.md"
