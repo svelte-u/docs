@@ -56,6 +56,7 @@ nav:
   - "Drop Zone": "actions/dropzone.md"
   - "Element Bound": "actions/el_bound.md"
   - "Full Screen": "actions/fullscreen.md"
+  - "Type Hint": "actions/type_hint.md"
 # - Browser:
 - Extend:
   - "Async Validator": "extend/async_validator.md"
