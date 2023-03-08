@@ -52,7 +52,8 @@ nav:
 - "Svelte Utility": 
   - Home: index.md
   - Contributing: contributing.md
-# - Actions:
+- Actions:
+  - "Drop Zone": "actions/dropzone.md"
 # - Browser:
 - Extend:
   - "Async Validator": "extend/async_validator.md"
