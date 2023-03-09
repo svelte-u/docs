@@ -82,6 +82,7 @@ nav:
   - "Push Notification": "browser/push_notification.md"
   - "Raf Fn": "browser/raf_fn.md"
   - "Resize Observer": "browser/resize_observer.md"
+  - "Support": "browser/support.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
