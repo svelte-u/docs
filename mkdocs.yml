@@ -191,3 +191,8 @@ extra_javascript:
 - js/termynal.js
 - js/custom.js
 - js/windicss.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/XM5uQhDHfZ

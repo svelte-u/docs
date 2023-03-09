@@ -2,14 +2,6 @@
 description: A collection of utility functions, which help you build powerful app in svelte.
 ---
 
-> ## 🛠 Status: In Development
-> Currently in development. So we encourage you to use it and give us your feedback, but there are things that haven't been finalized yet and you can expect some changes.
->
-> Join us in [discord](https://discord.gg/XM5uQhDHfZ)
-
-
-<br/>
-
 <p align="center">
 	<img style="height: 10rem;"  src="https://avatars.githubusercontent.com/u/120715197" />
 
@@ -27,7 +19,7 @@ The key features are:
 * **SSR Friendly 🕺**: Works perfectly with server-side.
 * **Easy 💫**: Designed to be easy to use and learn. Less time reading docs.
 * **Interactive demos 🎉** : Documentation of functions also come with interactive demos!.
-* **Feature Rich  🌈**: 0+ functions for you to choose from.
+* **Feature Rich  🌈**: 100+ functions for you to choose from.
 * **Fully 🌳 shakeable**: Only take what you want.
 
 ## Installation
@@ -81,12 +73,77 @@ The key features are:
 
 	</div>
 
+## 🧪 Example
+
+=== "Actions"
+
+    ``` html
+	<script>
+	import { dropzone } from "@sveu/actions"
+
+	function hover(event) {
+		...
+	}
+
+	function on_file_drop(event) {
+		...
+	}
+	</script>
+
+	<div use:dropzone on:hover="{hover}" on:files="{on_file_drop}" />
+
+    ```
+
+=== "Browser"
+
+    ``` html
+
+	<script>
+	import {permission} from "@sveu/browser"
+
+	const { state, supported } = permission("geolocation", {controls: true})
+	</script>
+
+	<h1>Is supported is: {$supported}</h1>
+
+	<h1>state is: {$state}</h1>
+
+    ```
+
+=== "Extend"
+
+    ``` html
+	
+	<script>
+	import { fcm } from "@sveu/extend/fcm"
+	
+	const { token, error, supported, on_message } = fcm(firebase_app, {vapid_key:"my-key",})
+	
+	</script>
+
+    ```
+
+=== "Shared"
+
+    ``` html
+
+	<script>
+	import {strftime} from "@sveu/shared"
+	
+	const time = strftime(Date.now(), "%Y-%m-%d %H:%M:%S") // 2023-03-09 13:52:34
+	</script>
+
+	{time}
+    ```
+
 ## 🙏 Thanks
 
 This project is heavily inspired by the following awesome projects.
 
 - [vueuse/vueuse](https://github.com/vueuse/vueuse/)
 - [rayepps/radash](https://github.com/rayepps/radash)
+- [Python](https://python.org)
+- [Vue](https://vuejs.org)
 
 ## 📜 License
 
