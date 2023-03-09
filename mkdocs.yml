@@ -76,6 +76,7 @@ nav:
   - "Mouse": "browser/mouse.md"
   - "Mutation Observer": "browser/mutation_observer.md"
   - "Network": "browser/network.md"
+  - "Notification": "browser/notification.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
