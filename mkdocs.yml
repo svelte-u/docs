@@ -87,6 +87,7 @@ nav:
   - "Wake Lock": "browser/wake_lock.md"
   - "Window Focus": "browser/window_focus.md"
   - "Window Scroll": "browser/window_scroll.md"
+  - "Window Size": "browser/window_size.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
