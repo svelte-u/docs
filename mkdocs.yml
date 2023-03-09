@@ -83,6 +83,7 @@ nav:
   - "Raf Fn": "browser/raf_fn.md"
   - "Resize Observer": "browser/resize_observer.md"
   - "Support": "browser/support.md"
+  - "User Agent": "browser/useragent.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
