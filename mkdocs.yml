@@ -64,6 +64,7 @@ nav:
   - "Clipboard": "browser/clipboard.md"
   - "dom_visible": "browser/dom_visible.md"
   - "Event Listener": "browser/event_listener.md"
+  - "Eye Dropper": "browser/eye_dropper.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
