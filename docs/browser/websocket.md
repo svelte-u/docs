@@ -1,6 +1,7 @@
 ---
 title: WebSocket
 description: Reactive WebSocket client.
+demo_link: https://svelte.dev/repl/dbd20abead5f4d89bddf17b0677b2a3a?version=3.55.1
 ---
 
 # {{title}}
@@ -53,7 +54,7 @@ description: Reactive WebSocket client.
 
 ## 🧪 Playground
 
-[Stackblitz](https://stackblitz.com/edit/github-8gcpfy?file=src%2Froutes%2Fbrowser%2Fwebsocket%2F%2Bpage.svelte)
+<iframe class="h-120 w-full" src="{{demo_link}}"></iframe>
 
 ## Source Code 👀
 
