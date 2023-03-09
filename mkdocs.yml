@@ -59,6 +59,7 @@ nav:
   - "Type Hint": "actions/type_hint.md"
 - Browser:
   - "Active Element": "browser/active_el.md"
+  - "breakpoints": "browser/breakpoints.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
