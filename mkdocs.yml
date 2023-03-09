@@ -78,6 +78,7 @@ nav:
   - "Network": "browser/network.md"
   - "Notification": "browser/notification.md"
   - "Permission": "browser/permission.md"
+  - "Preferred Language": "browser/preferred_lang.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
