@@ -74,6 +74,7 @@ nav:
   - "Media Query": "browser/media_query.md"
   - "Memory": "browser/memory.md"
   - "Mouse": "browser/mouse.md"
+  - "Mutation Observer": "browser/mutation_observer.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
