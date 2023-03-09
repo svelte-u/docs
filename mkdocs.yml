@@ -85,6 +85,7 @@ nav:
   - "Support": "browser/support.md"
   - "User Agent": "browser/useragent.md"
   - "Wake Lock": "browser/wake_lock.md"
+  - "Websocket": "browser/websocket.md"
   - "Window Focus": "browser/window_focus.md"
   - "Window Scroll": "browser/window_scroll.md"
   - "Window Size": "browser/window_size.md"
