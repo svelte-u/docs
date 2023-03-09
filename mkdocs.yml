@@ -62,6 +62,7 @@ nav:
   - "breakpoints": "browser/breakpoints.md"
   - "Broadcast Channel": "browser/broadcast_channel.md"
   - "Clipboard": "browser/clipboard.md"
+  - "dom_visible": "browser/dom_visible.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
