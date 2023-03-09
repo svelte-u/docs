@@ -65,6 +65,7 @@ nav:
   - "dom_visible": "browser/dom_visible.md"
   - "Event Listener": "browser/event_listener.md"
   - "Eye Dropper": "browser/eye_dropper.md"
+  - "Favicon": "browser/favicon.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
