@@ -8,9 +8,10 @@ repo_url: https://github.com/svelte-u/docs
 edit_uri: https://github.com/svelte-u/docs/tree/master/docs
 copyright: Copyright &copy; 2022 Mohamed Nesredin
 theme:
+  favicon: static/images/logo.png
   name: material
   custom_dir: docs/overrides
-  logo: https://avatars.githubusercontent.com/u/120715197
+  logo: /static/images/logo.png
   icon:
     repo: fontawesome/brands/github-alt
   features:
