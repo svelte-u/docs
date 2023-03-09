@@ -84,6 +84,7 @@ nav:
   - "Resize Observer": "browser/resize_observer.md"
   - "Support": "browser/support.md"
   - "User Agent": "browser/useragent.md"
+  - "Wake Lock": "browser/wake_lock.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
