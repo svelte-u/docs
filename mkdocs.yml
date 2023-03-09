@@ -57,7 +57,8 @@ nav:
   - "Element Bound": "actions/el_bound.md"
   - "Full Screen": "actions/fullscreen.md"
   - "Type Hint": "actions/type_hint.md"
-# - Browser:
+- Browser:
+  - "Active Element": "browser/active_el.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
