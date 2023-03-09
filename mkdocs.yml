@@ -88,6 +88,7 @@ nav:
   - "Window Focus": "browser/window_focus.md"
   - "Window Scroll": "browser/window_scroll.md"
   - "Window Size": "browser/window_size.md"
+  - "Worker": "browser/worker.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
