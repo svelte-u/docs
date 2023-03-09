@@ -68,6 +68,7 @@ nav:
   - "Favicon": "browser/favicon.md"
   - "File Dialog": "browser/file_dialog.md"
   - "FPS": "browser/fps.md"
+  - "GeoLocation": "browser/geolocation.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
