@@ -71,6 +71,7 @@ nav:
   - "GeoLocation": "browser/geolocation.md"
   - "Image": "browser/image.md"
   - "Intersection Observer": "browser/intersection_observer.md"
+  - "Media Query": "browser/media_query.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
