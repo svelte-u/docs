@@ -86,6 +86,7 @@ nav:
   - "User Agent": "browser/useragent.md"
   - "Wake Lock": "browser/wake_lock.md"
   - "Window Focus": "browser/window_focus.md"
+  - "Window Scroll": "browser/window_scroll.md"
 - Extend:
   - "Async Validator": "extend/async_validator.md"
   - "Change Case": "extend/change_case.md"
