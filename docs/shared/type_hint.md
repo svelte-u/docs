@@ -202,7 +202,7 @@ description: A Collection of types and interfaces inside @sveu/shared.
 
     export type EventHookOff<T = any> = (fn: (param: T) => void) => void
 
-    export type EventHookTrigger<T = any> = (param: T) => void
+    export type EventHookTrigger<T = any> = (param: T) => Promise<unknown[]>
 
     export interface EventHook<T = any> {
         on: EventHookOn<T>
