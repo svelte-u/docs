@@ -24,7 +24,6 @@ demo_link: https://svelte.dev/repl/a8f4fe0530444abc9ca4d921ff85f5aa?version=3.55
 
 [See Notification API](https://developer.mozilla.org/en-US/docs/Web/API/notification)
 
-
 ### ↩️ Returns
 
 | Name          | Description                                | Type                         |
@@ -33,10 +32,10 @@ demo_link: https://svelte.dev/repl/a8f4fe0530444abc9ca4d921ff85f5aa?version=3.55
 | **notify**    | The notification instance                  | `Readable<Notification | null>` |
 | **show**      | Show the notification                      | `(overrides?: WebNotificationOptions) => Promise<Notification | undefined>` |
 | **close**     | Close the notification                     | `() => void`                 |
-| **on_click**  | The click event                            | `EventHook<any>`             |
-| **on_close**  | The close event                            | `EventHook<any>`             |
-| **on_error**  | The error event                            | `EventHook<any>`             |
-| **on_show**   | The show event                             | `EventHook<any>`             |
+| **on_click**  | The click event                            | `EventHookOn<any><any>`             |
+| **on_close**  | The close event                            | `EventHookOn<any><any>`             |
+| **on_error**  | The error event                            | `EventHookOn<any><any>`             |
+| **on_show**   | The show event                             | `EventHookOn<any><any>`             |
 
 ## 🧪 Playground
 
@@ -65,16 +64,6 @@ demo_link: https://svelte.dev/repl/a8f4fe0530444abc9ca4d921ff85f5aa?version=3.55
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/API/notification
      * @param options - options
-     * - `title` - The title of the notification.
-     * - `dir` - The direction of the notification; it can be auto, ltr, or rtl.
-     * - `body` - The body of the notification.
-     * - `lang` - Specify the lang used within the notification.
-     * - `tag` - An ID for a given notification that allows to retrieve, replace or remove it if necessary.
-     * - `icon` - The URL of an image to be used as an icon by the notification.
-     * - `renotify` - A boolean specifying whether the user should be notified after a new notification replaces an old one.
-     * - `silent` - A boolean specifying whether the notification should be silent, i.e. no sounds or vibrations should be issued, regardless of the device settings.
-     * - `requireInteraction` - A boolean specifying whether the notification should remain active until the user clicks or dismisses it, rather than closing automatically.
-     * - `vibrate` - A vibration pattern for the device's vibration hardware to emit when the notification fires.
      *
      * @returns
      * - `supported` - Whether the browser supports the Notification API.
@@ -165,10 +154,10 @@ demo_link: https://svelte.dev/repl/a8f4fe0530444abc9ca4d921ff85f5aa?version=3.55
             notify: to_readable(notification),
             show,
             close,
-            on_click,
-            on_show,
-            on_error,
-            on_close,
+            on_click: on_click.on,
+            on_show: on_show.on,
+            on_error: on_error.on,
+            on_close: on_close.on,
         }
     }
     ```
