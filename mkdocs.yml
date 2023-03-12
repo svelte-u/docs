@@ -64,6 +64,7 @@ nav:
   - "Broadcast Channel": "browser/broadcast_channel.md"
   - "Clipboard": "browser/clipboard.md"
   - "dom_visible": "browser/dom_visible.md"
+  - "Event Dispatcher": "browser/event_dispatcher.md"
   - "Event Listener": "browser/event_listener.md"
   - "Eye Dropper": "browser/eye_dropper.md"
   - "Favicon": "browser/favicon.md"
