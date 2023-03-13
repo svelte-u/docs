@@ -79,6 +79,7 @@ nav:
   - "Mutation Observer": "browser/mutation_observer.md"
   - "Network": "browser/network.md"
   - "Notification": "browser/notification.md"
+  - "Performance Observer": "browser/performance_observer.md"
   - "Permission": "browser/permission.md"
   - "Preferred Language": "browser/preferred_lang.md"
   - "Push Notification": "browser/push_notification.md"
