@@ -1,6 +1,6 @@
 ---
 title: Performance Observer
-description: Reactive load an image in the browser
+description: Observe performance metrics.
 demo_link: https://svelte.dev/repl/dfa7caeac6ff441990fd2b1354ff82f1?version=3
 ---
 
