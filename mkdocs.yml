@@ -85,6 +85,7 @@ nav:
   - "Push Notification": "browser/push_notification.md"
   - "Raf Fn": "browser/raf_fn.md"
   - "Resize Observer": "browser/resize_observer.md"
+  - "Screen Orientation": "browser/screen_orientation.md"
   - "Support": "browser/support.md"
   - "User Agent": "browser/useragent.md"
   - "Vibrate": "browser/vibrate.md"
