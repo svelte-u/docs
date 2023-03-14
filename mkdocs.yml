@@ -87,6 +87,7 @@ nav:
   - "Resize Observer": "browser/resize_observer.md"
   - "Screen Orientation": "browser/screen_orientation.md"
   - "Support": "browser/support.md"
+  - "URL Query": "browser/url_query.md"
   - "User Agent": "browser/useragent.md"
   - "Vibrate": "browser/vibrate.md"
   - "Wake Lock": "browser/wake_lock.md"
