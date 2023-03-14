@@ -32,7 +32,7 @@ Tracking the last time the value changed.
 
 | Name                 | Type                                         |
 | -------------------- | -------------------------------------------- |
-| **value**            | `PartialWritable`                            |
+| **value**            | `Watchable`                                  |
 | **timestamp**        | `Readable<number>`                           |
 
 ## 🧪 Playground
@@ -64,7 +64,7 @@ Tracking the last time the value changed.
     ) {
         const timestamp = to_writable(initial_timestamp ?? +Date.now())
 
-        const value = watchable(initial_value, () => timestamp.set(+Date.now()))
+        const value = watchable<T>(initial_value, () => timestamp.set(+Date.now()))
 
         return { value, timestamp: to_readable(timestamp) }
     }
