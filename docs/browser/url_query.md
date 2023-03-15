@@ -36,6 +36,7 @@ demo_link: https://stackblitz.com/edit/github-8gcpfy?file=src%2Froutes%2Fbrowser
 | **remove_nullish**| Whether to remove nullish values from the URL query string | `boolean` | `true`   |
 | **remove_falsy**  | Whether to remove falsy values from the URL query string   | `boolean` | `false`  |
 | **write**         | Whether to write the URL query string to the URL           | `boolean` | `true`   |
+| **encode**        | Whether to encode the URL query string                     | `boolean` | `false`  |
 
 ### ↩️ Returns
 
@@ -69,6 +70,7 @@ Watchable store
      * - `remove_nullish` - Whether to remove nullish values from the URL query string
      * - `remove_falsy` - Whether to remove falsy values from the URL query string
      * - `write` - Whether to write the URL query string to the URL
+     * - `encode` - Whether to encode the URL query string
      *
      * @returns a watchable store
      */
@@ -81,6 +83,7 @@ Watchable store
             remove_nullish = true,
             remove_falsy = false,
             write: enable_write = true,
+            encode = false,
         } = options
 
         if (!browser) return watchable<T>(fallback, noop)
@@ -91,13 +94,20 @@ Watchable store
             const _state = unstore(state)
 
             Object.keys(_state).forEach((key) => {
-                const mapEntry = _state[key]
+                const item = _state[key]
 
-                if (Array.isArray(mapEntry))
-                    mapEntry.forEach((value) => queries.append(key, value))
-                else if (remove_nullish && mapEntry == null) queries.delete(key)
-                else if (remove_falsy && !mapEntry) queries.delete(key)
-                else queries.set(key, mapEntry)
+                if (Array.isArray(item) || typeof item === "object") {
+                    const serialized = JSON.stringify(item)
+
+                    queries.set(
+                        key,
+                        encode ? encodeURIComponent(serialized) : serialized
+                    )
+                } else queries.set(key, item)
+
+                if (remove_falsy && !item) queries.delete(key)
+
+                if (remove_nullish && item === null) queries.delete(key)
             })
 
             write(queries)
@@ -170,8 +180,9 @@ Watchable store
 
             for (const key of queries.keys()) {
                 const query_for_key = queries.getAll(key)
-                const _state = unstore(state)
-                // @ts-expect-error - This is a valid use case
+
+                const _state = unstore(state) as Dict
+
                 _state[key] =
                     query_for_key.length > 1
                         ? query_for_key

@@ -593,6 +593,13 @@ export interface UrlQueryOptions<T> {
      * @defaultValue true
      */
     write?: boolean
+
+    /**
+     * Encode the query string using `encodeURIComponent`
+     *
+     * @defaultValue false
+    */
+    encode?: boolean
 }
 
 ```
