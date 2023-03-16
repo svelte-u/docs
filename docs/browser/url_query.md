@@ -28,6 +28,14 @@ demo_link: https://stackblitz.com/edit/github-8gcpfy?file=src%2Froutes%2Fbrowser
 | ------------ | ---------------------------------------  | --------------------------------- | -------- |
 | **mode**     | The mode to use for the URL query string | `history | hash | hash-query`     | No       |
 
+#### Mode
+
+| Name         | Description                              | Example                            |
+| ------------ | ---------------------------------------  | ---------------------------------- |
+| **history**  | Used when **history mode router** is used  | `https://example.com/?sveu=awesome`|
+| **hash**     | Used when **hash mode router** is used     | `https://example.com/#/your/route?sveu=awesome`|
+| **hash-query**| Used when **history mode router** is used, but want to use hash as query string | `https://example.com/#sveu=awesome&sveu=cool`|
+
 ### 🙈 Options
 
 | Name              | Description                                                | Type      | Default  |
@@ -88,13 +96,11 @@ Watchable store
 
         if (!browser) return watchable<T>(fallback, noop)
 
-        const state = watchable(fallback, () => {
+        const state = watchable(fallback, (_, new_state) => {
             const queries = new URLSearchParams("")
 
-            const _state = unstore(state)
-
-            Object.keys(_state).forEach((key) => {
-                const item = _state[key]
+            Object.keys(new_state).forEach((key) => {
+                const item = new_state[key]
 
                 if (Array.isArray(item) || typeof item === "object") {
                     const serialized = JSON.stringify(item)
