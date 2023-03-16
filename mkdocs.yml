@@ -86,6 +86,7 @@ nav:
   - "Raf Fn": "browser/raf_fn.md"
   - "Resize Observer": "browser/resize_observer.md"
   - "Screen Orientation": "browser/screen_orientation.md"
+  - "Storage": "browser/storage.md"
   - "Support": "browser/support.md"
   - "URL Query": "browser/url_query.md"
   - "User Agent": "browser/useragent.md"
