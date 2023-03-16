@@ -52,7 +52,7 @@ demo_link: https://stackblitz.com/edit/github-8gcpfy?file=src%2Froutes%2Factions
 
 [StackBlitz]({{demo_link}})
 
-??? warning
+!!! warning
 
     In the **StackBlitz** demo, the cookie example will not work b/c it's using a **subdomain**. **[You can test it out by running the demo locally.](https://github.com/svelte-u/playground)**
 
