@@ -36,7 +36,7 @@ demo_link: https://svelte.dev/repl/7304bf53b6de4b1ebd19d05d169d8b63?version=3.55
 ??? tip "Source Code"
 
     ```ts
-    import { to_readable, to_writable } from "@sveu/shared"
+    import { browser, to_readable, to_writable } from "@sveu/shared"
 
     import { on } from "../event_listener"
 
@@ -48,7 +48,7 @@ demo_link: https://svelte.dev/repl/7304bf53b6de4b1ebd19d05d169d8b63?version=3.55
      * - `y`: A readable store with the current window scroll y position.
      */
     export function window_scroll() {
-        if (!window) return { x: to_readable(0), y: to_readable(0) }
+        if (!browser) return { x: to_readable(0), y: to_readable(0) }
 
         const x = to_writable(window.scrollX)
 
