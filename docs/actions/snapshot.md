@@ -6,7 +6,7 @@ demo_link: https://stackblitz.com/edit/github-8gcpfy?file=src%2Froutes%2Factions
 
 # {{title}}
 
-{{description}}
+{{description}} Inspired by **[SvelteKit Snapshot](https://kit.svelte.dev/docs/snapshots)**.
 
 ## 🎬 Usage
 

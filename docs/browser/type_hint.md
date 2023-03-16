@@ -602,4 +602,38 @@ export interface UrlQueryOptions<T> {
     encode?: boolean
 }
 
+export interface StorageSerializer<T> {
+    read(raw: string): T
+    write(value: T): string
+}
+
+export interface StorageOptions<T> {
+    /**
+     * Where to store the data
+     *
+     * @defaultValue "local"
+     *
+     */
+    store?: "local" | "session" | "cookie" | "url"
+
+    /**
+     * Called when an error occurs
+     *
+     * @param error - Error
+     *
+     */
+    on_error?: (error: unknown) => void
+
+    /**
+     * Custom data serialization
+     */
+    serializer?: StorageSerializer<T>
+
+    /**
+     * Sync data between tabs. Only works with `store: "local"`
+     *
+     * @defaultValue true
+     */
+    sync?: boolean
+}
 ```

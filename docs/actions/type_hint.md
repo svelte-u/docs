@@ -57,4 +57,41 @@ description: A Collection of types and interfaces inside @sveu/actions.
         "fullscreenchange",
         "fullscreenerror"
     ]
+
+    export interface SnapshotOptions<T = unknown> {
+        /**
+         * The key to use storing the snapshot data.
+         */
+        key?: string
+
+        /**
+         * The storage to use for storing the snapshot data.
+         *
+         * @defaultValue "local"
+         */
+        store?: "cookie" | "local" | "session"
+
+        /**
+         * The fallback value to use if no data is found.
+         *
+         * @defaultValue `{}`
+         *
+         */
+        fallback?: unknown
+
+        /**
+         * A function that captures the state of the node.
+         *
+         * @param target - The node to capture the state of.
+         */
+        capture?: (target: T) => unknown
+
+        /**
+         * A function that restores the state of the node.
+         *
+         * @param state - The state to restore.
+         *
+         */
+        restore?: (state: any) => void
+    }
 ```
