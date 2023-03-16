@@ -57,6 +57,7 @@ nav:
   - "Drop Zone": "actions/dropzone.md"
   - "Element Bound": "actions/el_bound.md"
   - "Full Screen": "actions/fullscreen.md"
+  - "Snapshot": "actions/snapshot.md"
   - "Type Hint": "actions/type_hint.md"
 - Browser:
   - "Active Element": "browser/active_el.md"
