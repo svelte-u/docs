@@ -50,6 +50,10 @@ Watchable store
 
 [StackBlitz]({{demo_link}})
 
+??? warning
+
+    In the **StackBlitz** demo, the cookie example will not work b/c it's using a **subdomain**. **[You can test it out by running the demo locally.](https://github.com/svelte-u/playground)**
+
 ## Source Code 👀
 
 ??? tip "Source Code"
