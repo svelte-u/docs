@@ -107,6 +107,7 @@ nav:
   - "IDB KeyVal": "extend/idb_keyval.md"
   - "Jwt": "extend/jwt.md"
   - "Qr Code": "extend/qrcode.md"
+  - "Sortable": "extend/sortable.md"
 - Shared:
   - "Adjust With Unit": "shared/adjust_with_unit.md"
   - "Async State": "shared/async_state.md"
