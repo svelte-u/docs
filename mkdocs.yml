@@ -62,6 +62,7 @@ nav:
   - "Type Hint": "actions/type_hint.md"
 - Browser:
   - "Active Element": "browser/active_el.md"
+  - "Base64": "browser/base64.md"
   - "breakpoints": "browser/breakpoints.md"
   - "Broadcast Channel": "browser/broadcast_channel.md"
   - "Clipboard": "browser/clipboard.md"
