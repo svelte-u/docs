@@ -58,6 +58,7 @@ nav:
   - "Element Bound": "actions/el_bound.md"
   - "Full Screen": "actions/fullscreen.md"
   - "Snapshot": "actions/snapshot.md"
+  - "Start Typing": "actions/start_typing.md"
   - "Type Hint": "actions/type_hint.md"
 - Browser:
   - "Active Element": "browser/active_el.md"
