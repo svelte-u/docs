@@ -1,8 +1,0 @@
-[flake8]
-select = ANN,B,B9,BLK,C,D,DAR,E,F,I,S,W
-ignore = E203,E501,W503, B008
-max-line-length = 80
-application-import-names = madao_push,tests
-docstring-convention = google
-import-order-style = pep8
-per-file-ignores = tests/*:S101

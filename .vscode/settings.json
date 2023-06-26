@@ -5,26 +5,25 @@
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
 	"prettier.requireConfig": true,
-	"prettier.printWidth": 80,
+	"prettier.printWidth": 100,
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
 	"prettier.semi": false,
 	"prettier.singleQuote": false,
 	"prettier.bracketSpacing": true,
-	"python.formatting.provider": "black",
-	"python.linting.flake8Enabled": true,
-	"python.sortImports.args": ["--profile=black"],
-	"[python]": {
-		"editor.codeActionsOnSave": {
-			"source.organizeImports": true
-		}
-	},
+	"prettier.bracketSameLine": true,
+	"prettier.arrowParens": "always",
+	"prettier.trailingComma": "es5",
 	"windicss.sortOnSave": true,
 	"svelte.plugin.svelte.format.config.svelteStrictMode": true,
 	"svelte.enable-ts-plugin": true,
 	"svelte.plugin.css.diagnostics.enable": false,
-	"svelte.plugin.svelte.compilerWarnings": {
-		"missing-declaration": "ignore"
+	"python.formatting.provider": "black",
+	"python.linting.flake8Enabled": true,
+	"[python]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		}
 	},
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.expand": false,

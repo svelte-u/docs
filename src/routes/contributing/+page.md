@@ -1,9 +1,7 @@
 ---
 title: Contributing
-description: How to contribute to Svelte Utility Libraries
+description: How to contribute to Svelte Utility
 ---
-
-# {{title}}
 
 Thanks for being interested in contributing to this project!
 
@@ -13,55 +11,37 @@ Thanks for being interested in contributing to this project!
 
 Clone the repo that you want to contribute into, to your local machine and install the dependencies.
 
-<div class="termy">
-
-```console
-$ pnpm install
-
----> 100%
+```bash
+pnpm install
 ```
-
-</div>
 
 Run the tests to make sure everything is working.
 
-<div class="termy">
-
-```console
-$ pnpm test
-
----> 100%
+```bash
+pnpm test
 ```
-
-</div>
 
 We use [commitizen](https://commitizen-tools.github.io/commitizen/). Installed on your machine.
 
-<div class="termy">
-
-```console
-$ pnpm git:add && pnpm commit
-
----> 100%
+```bash
+pnpm git:add && pnpm commit
 ```
-
-</div>
 
 ## Contributing
 
 ### Existing functions
 
-Feel free to enhance the existing functions. Please try not to introduce breaking changes unless absolutely necessary.
+Feel free to enhance the existing functions. You can add more tests, more examples, or even more features.
 
 ### New functions
 
 There are some notes for adding new functions
 
--   Before you start working, it's better to discuss the function you want to add in [discord](https://discord.gg/XM5uQhDHfZ).
--   Details explained in the [Function Folder](#function-folder) section.
+-   Before you start working, it's better to discuss the function you want to add in [discord](https://discord.gg/nbkcHgDXPc).
+-   Details explained in the [Function Folder](#Function-Folder) section.
 -   Try not to introduce 3rd-party dependencies in [@sveu/actions](https://github.com/svelte-u/actions), [@sveu/browser](https://github.com/svelte-u/browser) or [@sveu/shared](https://github.com/svelte-u/shared) as these package's is aimed to be as lightweight as possible.
 -   If you'd like to introduce 3rd-party dependencies, please contribute to [@sveu/extend](https://github.com/svelte-u/extend).
--   For `@sveu/extend` case, install the 3rd-party library you want to use, `pnpm add -D <library>`.
+-   For `@sveu/extend` case, install the 3rd-party library you want to use, <br/> `pnpm add -D <library>`.
 -   Add the package that you just installed to `peerDependencies` and `peerDependenciesMeta` in `package.json`.
 
     ```json
@@ -77,7 +57,9 @@ There are some notes for adding new functions
     }
     ```
 
-> Please note you don't need to update packages' `src/index.ts`. It's automatically generated.
+:::important[Note]
+Please note you don't need to update packages' `src/index.ts`. It's automatically generated.
+:::
 
 ## Project Structure
 
@@ -94,18 +76,14 @@ for `index.ts` you should export the function with names.
 
 ```ts
 // DO
-export { my_fnction }
+export { myFunction }
 // Do
-export function my_function() {}
+export function myFunction() {}
 // DON'T
-export default my_function
+export default myFunction
 // DON'T
-export default function my_function() {}
+export default function myFunction() {}
 ```
-
-## Code Style
-
-We prefer [snake case syntax](https://en.wikipedia.org/wiki/Snake_case), and indent with 4 spaces.
 
 ## Thanks
 
