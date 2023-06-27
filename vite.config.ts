@@ -13,8 +13,8 @@ const config = defineConfig({
 						to: "/docs/intro/",
 					},
 					{
-						title: "Contributing",
-						to: "/contributing/",
+						title: "Reference",
+						to: "/reference/",
 					},
 				],
 				sidebar: {
@@ -27,6 +27,10 @@ const config = defineConfig({
 									title: "Get Started",
 									to: "/docs/intro/",
 								},
+								{
+									title: "Contributing",
+									to: "/docs/contributing/",
+								}
 							],
 						},
 						{
