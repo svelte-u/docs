@@ -7,6 +7,51 @@ Create a dropzone for file uploads.
 
 ## Usage
 
+<Tabs activeName="Default">
+  <TabPanel name="Default">
+
+```svelte
+<script>
+    import { dropzone } from "@sveu/actions"
+
+    function fn({ overDropzone, files }) {
+        console.log(overDropzone, files)
+    }
+
+</script>
+
+<div use:dropzone="{fn}">
+    Drop files into dropZone
+</div>
+```
+
+  </TabPanel>
+
+  <TabPanel name="With Events">
+
+```svelte
+<script>
+   import { dropzone } from "@sveu/actions"
+
+    function hover(data) {
+        console.log(data.detail)
+    }
+
+    function onDrop(data) {
+        console.log(data.detail)
+    }
+</script>
+
+<div use:dropzone on:hover="{hover}" on:files="{onDrop}">
+    Drop files into dropZone
+</div>
+```
+
+  </TabPanel>
+</Tabs>
+
+## Example
+
 ### Default
 
 ```svelte live ln
