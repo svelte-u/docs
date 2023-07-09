@@ -85,3 +85,23 @@ Reactive bounding box of an HTML element.
 | Name                | Description                                  | Type                  | Required |
 | ------------------- | -------------------------------------------- | --------------------- | -------- |
 | **fn**              | A function that receive the bounding box of the element. | (data: BoundingData) => void | Yes |
+
+<br/>
+<br/>
+
+:::tip
+If you use typescript, you need to add `./node_modules/@sveu/actions/events.d.ts` to your `tsconfig.json` file.
+
+```json
+{
+    ...
+
+    "include": [
+        ...
+        "./node_modules/@sveu/actions/events.d.ts"
+    ]
+    ...
+}
+```
+
+:::
