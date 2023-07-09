@@ -5,10 +5,10 @@ description: A quick introduction to the basics of using svelte Utility
 
 Svelte Utility is a collection of utility functions that can be used in your Svelte projects. It's divided into multiple packages, each with their own focus:
 
--   `actions`: A collection of Svelte actions. Because `svelte actions` work in browser context, these actions are only available in the browser.
--   `browser`: A collection of function that are only available in the browser.
--   `extend`: A collection of integrations with 3rd party libraries.
--   `shared`: A shared module that is used by the other packages.
+- `actions`: A collection of Svelte actions. Because `svelte actions` work in browser context, these actions are only available in the browser.
+- `browser`: A collection of function that are only available in the browser.
+- `extend`: A collection of integrations with 3rd party libraries.
+- `shared`: A shared module that is used by the other packages.
 
 ## Fully Typed
 
