@@ -3,6 +3,8 @@ import { sveltepress } from "@sveltepress/vite"
 
 import { defineConfig } from "vite"
 
+import { sidebar } from "./config/sidebar"
+
 const config = defineConfig({
 	plugins: [
 		sveltepress({
@@ -11,10 +13,6 @@ const config = defineConfig({
 					{
 						title: "Docs",
 						to: "/docs/intro/",
-					},
-					{
-						title: "Reference",
-						to: "/reference/",
 					},
 				],
 				sidebar: {
@@ -30,29 +28,10 @@ const config = defineConfig({
 								{
 									title: "Contributing",
 									to: "/docs/contributing/",
-								}
+								},
 							],
 						},
-						{
-							title: "Actions",
-							collapsible: true,
-							items: [],
-						},
-						{
-							title: "Browser",
-							collapsible: true,
-							items: [],
-						},
-						{
-							title: "Extend",
-							collapsible: true,
-							items: [],
-						},
-						{
-							title: "Shared",
-							collapsible: true,
-							items: [],
-						},
+						...sidebar,
 					],
 				},
 				github: "https://github.com/svelte-u/docs",
