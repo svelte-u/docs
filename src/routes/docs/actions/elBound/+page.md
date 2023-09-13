@@ -3,6 +3,12 @@ title: Element Bounding
 description: Reactive bounding box of an element.
 ---
 
+<script>
+    import Meta from "$components/meta.svelte"
+</script>
+
+<Meta name="elBound" lib="actions"/>
+
 Reactive bounding box of an HTML element.
 
 ## Usage

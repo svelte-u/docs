@@ -3,6 +3,12 @@ title: Start Typing
 description: Create a typing listener for the given element.
 ---
 
+<script>
+    import Meta from "$components/meta.svelte"
+</script>
+
+<Meta name="startTyping" lib="actions"/>
+
 Create a typing listener for the given element.
 
 ## Usage
