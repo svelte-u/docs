@@ -40,7 +40,6 @@ Wrapper for [fuse.js](https://github.com/krisk/Fuse).
 ```svelte live ln
 <script>
     import { fuse } from "@sveu/extend/fuse" // [svp! hl:1]
-    import { page } from "$app/stores"
 
     const data = [
     {
@@ -125,13 +124,11 @@ Wrapper for [fuse.js](https://github.com/krisk/Fuse).
     },
     ]
 
-    let search = $page.url.searchParams.get("search") ?? ""
+    let search = ""
 
-    let matchWhenEmpty = $page.url.searchParams.get("empty") === "true"
+    let matchWhenEmpty = false
 
-    let limit = $page.url.searchParams.get("limit")
-        ? Number($page.url.searchParams.get("limit"))
-        : undefined
+    let limit
 
     let results = []
 
