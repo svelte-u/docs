@@ -58,7 +58,8 @@ Create a dropzone for file uploads.
 
 ## Example
 
-### Default
+<Tabs activeName="Default">
+  <TabPanel name="Default">
 
 ```svelte live ln
 <script lang="ts">
@@ -111,7 +112,9 @@ Create a dropzone for file uploads.
 </div>
 ```
 
-### With Events
+  </TabPanel>
+
+  <TabPanel name="With Events">
 
 ```svelte live ln
 <script lang="ts">
@@ -167,6 +170,10 @@ Create a dropzone for file uploads.
     </div>
 </div>
 ```
+
+  </TabPanel>
+
+</Tabs>
 
 ## API
 

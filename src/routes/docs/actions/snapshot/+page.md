@@ -41,7 +41,8 @@ Takes a snapshot of an element. Inspired by **[SvelteKit Snapshot](https://kit.s
 
 ## Example
 
-### Default
+<Tabs activeName="Default">
+    <TabPanel name="Default">
 
 ```svelte live ln
 <script lang="ts">
@@ -87,7 +88,9 @@ Takes a snapshot of an element. Inspired by **[SvelteKit Snapshot](https://kit.s
 </form>
 ```
 
-### With Cookie
+  </TabPanel>
+
+  <TabPanel name="With Cookie">
 
 ```svelte live ln
 <script lang="ts">
@@ -134,7 +137,9 @@ Takes a snapshot of an element. Inspired by **[SvelteKit Snapshot](https://kit.s
 </form>
 ```
 
-### With Session
+  </TabPanel>
+
+  <TabPanel name="With Session">
 
 ```svelte live ln
 <script lang="ts">
@@ -180,6 +185,9 @@ Takes a snapshot of an element. Inspired by **[SvelteKit Snapshot](https://kit.s
     />
 </form>
 ```
+
+  </TabPanel>
+</Tabs>
 
 ## API
 

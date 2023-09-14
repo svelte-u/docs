@@ -62,7 +62,8 @@ Reactive Fullscreen API. It adds methods to present a specific Element (and its 
 
 ## Example
 
-### Default
+<Tabs activeName="Default">
+    <TabPanel name="Default">
 
 ```svelte live ln
 <script>
@@ -95,7 +96,9 @@ Reactive Fullscreen API. It adds methods to present a specific Element (and its 
 </div>
 ```
 
-### With Events
+ </TabPanel>
+
+  <TabPanel name="With Events">
 
 ```svelte live ln
 <script>
@@ -132,6 +135,9 @@ Reactive Fullscreen API. It adds methods to present a specific Element (and its 
     </button>
 </div>
 ```
+
+  </TabPanel>
+</Tabs>
 
 ## API
 
