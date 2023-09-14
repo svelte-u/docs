@@ -7,7 +7,7 @@ description: Reactive bounding box of an element.
     import Meta from "$components/meta.svelte"
 </script>
 
-<Meta name="elBound" lib="actions"/>
+<Meta />
 
 Reactive bounding box of an HTML element.
 

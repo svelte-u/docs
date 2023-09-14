@@ -1,7 +1,9 @@
 <script lang="ts">
-	export let name: string
+	import { page } from "$app/stores"
 
-	export let lib: string
+	const lib = $page.url.pathname.split("/").at(-2)
+
+	const name = $page.url.pathname.split("/").at(-1)
 </script>
 
 <div class="flex space-x-4 -mt-12 mb-8 w-full justify-end">

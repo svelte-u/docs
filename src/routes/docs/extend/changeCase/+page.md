@@ -7,7 +7,7 @@ description: Wrapper for change-case.
     import Meta from "$components/meta.svelte"
 </script>
 
-<Meta name="changeCase" lib="extend"/>
+<Meta />
 
 Wrapper for [change-case](https://github.com/blakeembrey/change-case).
 
@@ -70,6 +70,9 @@ Wrapper for [change-case](https://github.com/blakeembrey/change-case).
 | --------- | ------------------------------------ | -------------------------- | -------- |
 | **input** | The string to convert                | `string`                   | Yes      |
 | **type**  | The type of conversion to perform    | `string`                   | Yes      |
+
+<br/>
+<br/>
 
 ### Options
 

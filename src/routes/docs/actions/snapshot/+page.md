@@ -7,7 +7,7 @@ description: Takes a snapshot of an element.
     import Meta from "$components/meta.svelte"
 </script>
 
-<Meta name="snapshot" lib="actions"/>
+<Meta />
 
 Takes a snapshot of an element. Inspired by **[SvelteKit Snapshot](https://kit.svelte.dev/docs/snapshots)**.
 

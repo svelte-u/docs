@@ -7,7 +7,7 @@ description: Create a dropzone for file uploads.
     import Meta from "$components/meta.svelte"
 </script>
 
-<Meta name="dropzone" lib="actions"/>
+<Meta />
 
 Create a dropzone for file uploads.
 

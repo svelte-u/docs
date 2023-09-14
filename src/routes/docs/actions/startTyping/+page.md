@@ -7,7 +7,7 @@ description: Create a typing listener for the given element.
     import Meta from "$components/meta.svelte"
 </script>
 
-<Meta name="startTyping" lib="actions"/>
+<Meta />
 
 Create a typing listener for the given element.
 
