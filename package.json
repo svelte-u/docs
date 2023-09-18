@@ -13,7 +13,7 @@
     "@sveltepress/theme-default": "^1.19.0",
     "@sveltepress/vite": "^0.28.0",
     "@sveu/actions": "^1.0.0",
-    "@sveu/browser": "^1.0.0",
+    "@sveu/browser": "^1.0.1",
     "@sveu/extend": "^1.0.0",
     "@sveu/shared": "^1.0.1",
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
