@@ -66,7 +66,7 @@ Reactive load an image in the browser.
 | Name                  | Description                                 | Type                | Required |
 | --------------------- | ------------------------------------------- | ------------------- | -------- |
 | **options**           | [Read options](#Options)                    | `ImageOptions`      | Yes      |
-| **asyncStateOptions** | [Read options](/shared/asyncState/#options) | `AsyncStateOptions` | No       |
+| **asyncStateOptions** | [Read options](/docs/shared/asyncState#Options) | `AsyncStateOptions` | No       |
 
 <br />
 <br />
