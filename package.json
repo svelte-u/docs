@@ -20,6 +20,7 @@
     "@types/node": "^20.6.0",
     "@types/qrcode": "^1.5.2",
     "@types/sortablejs": "^1.15.2",
+    "@types/web-push": "^3.6.0",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
     "@typescript-eslint/parser": "^6.7.0",
     "change-case": "^4.1.2",
@@ -36,7 +37,9 @@
     "sortablejs": "^1.15.0",
     "svelte": "^4.2.0",
     "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "vite": "^4.4.9",
+    "web-push": "^3.6.6",
+    "zod": "^3.22.2"
   },
   "type": "module",
   "license": "MIT"
