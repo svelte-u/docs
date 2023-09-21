@@ -48,7 +48,7 @@ Reactive Memory Info.
 | Name                 | Description                                         | Type               |
 | -------------------- | --------------------------------------------------- | ------------------ |
 | **interval**         | The interval in seconds to check the memory.        | `number`           |
-| **IntervalFnOptions**|See [IntervalFnOptions](/shared/intervalFn/#Options).|`IntervalFnOptions` |
+| **IntervalFnOptions**|See [IntervalFnOptions](/docs/shared/intervalFn/#Options).|`IntervalFnOptions` |
 
 <br/>
 <br/>

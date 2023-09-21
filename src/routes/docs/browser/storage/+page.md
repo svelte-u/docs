@@ -132,5 +132,5 @@ Reactively stores data in the browser's storage.
 
 :::tip
 1. ***sync*** is only available for `local`.
-2. ***serializer*** is only available for `local`, `session`, and `cookie`. If your using `url`, you can't customize the serializer b/c it's use **[urlQuery](/browser/urlQuery)** under the hood.
+2. ***serializer*** is only available for `local`, `session`, and `cookie`. If your using `url`, you can't customize the serializer b/c it's use **[urlQuery](/docs/browser/urlQuery)** under the hood.
 :::
