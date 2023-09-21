@@ -37,6 +37,7 @@ const config = defineConfig({
 				github: "https://github.com/svelte-u/docs",
 				logo: "/logo.png",
 				discord: "https://discord.gg/nbkcHgDXPc",
+				ga: "G-0W8V2FLKY8",
 			}),
 			siteConfig: {
 				title: "Svelte Utility",
