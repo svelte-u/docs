@@ -38,6 +38,11 @@ const config = defineConfig({
 				logo: "/logo.png",
 				discord: "https://discord.gg/nbkcHgDXPc",
 				ga: "G-0W8V2FLKY8",
+				docsearch: {
+					appId: "AFZNEE7ZW9",
+					apiKey: "c4edfd7a902f53dbd7f863055e900e69",
+					indexName: "svelte-u",
+				},
 			}),
 			siteConfig: {
 				title: "Svelte Utility",
